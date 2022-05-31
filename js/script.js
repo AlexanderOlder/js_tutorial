@@ -1,134 +1,80 @@
 "use strict";
 
-/* const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+// let num = 50;
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-
-const a = prompt("Один из последних просмотренных фильмов", ""),
-      b = prompt("На сколько оцените его", ""),
-      c = prompt("Один из последних просмотренных фильмов", ""),
-      d = prompt("На сколько оцените его", "");
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-console.log(personalMovieDB); */
-
-if (4 == 9) {
-    console.log("Ok!");
-} else {
-    console.log("Error!");
-}
-
-/* if (num < 49) {
-    console.log('Error');
-} else if (num > 100) {
-    console.log ('Много!');
-} else {
-    console.log('Ok!');
-}
-
-(num === 50) ? console.log('Ok!') : console.log('Error'); */
-
-/* const num = 50;
-
-switch (num) {
-    case 49: 
-        console.log('Не верно');
-        break;
-    case 100:
-        console.log('Не верно');
-        break;
-    case 51:
-        console.log('Верно!');
-        break;
-    default:
-        console.log('Не в этот раз');
-        break;
+/* while (num < 55) {
+    console.log(num);
+    num++;
 } */
 
-/* const hamburger = 3;
-const fries = 1;
-const cola = 0;
-
-console.log(hamburger === 3 && cola && fries);
-
-console.log(1 && 0);
-console.log(1 && 5);
-console.log(null && 5);
-console.log(0 && 'sdgsdgsgsdg');
-
-if (hamburger === 3 && cola && fries) {
-    console.log('Все сыты!');
-} else {
-    console.log('Мы уходим!');
-} */
-
-/* let johnReport, alexReport, samReport, mariaReport = 'done';
-
-console.log(johnReport || alexReport || samReport || mariaReport); */
-
-/* const hamburger = 3;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
-
-if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
-    console.log('Все довольны!');
-} else {
-    console.log('Мы уходим!');
+/* do {
+    console.log(num);
+    num++;
 }
+while (num < 55); */
 
-console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets); */
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         // break;
+//         continue;
+//     }
 
-/* console.log(NaN || 2 || undefined);
+//     console.log(i);
+// }
 
-console.log(NaN && 2 && undefined);
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+//     }    
+// }
 
-console.log(1 && 2 && 3);
+// let result = '';
+// const lengthString = 7;
 
-console.log(!1 && 2 || !3);
+// for (let i = 1; i < lengthString; i++) {
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
+//     result += '\n';
+// }
 
-console.log(NaN || null || !3 || undefined || 5);
+// console.log(result);
 
-console.log(NaN || null && !3 && undefined || 5);
+// first: for (let i = 0; i < 3; i++) {
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++) {
+//             if (k === 2) /* continue */break first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }    
+// }
 
-console.log(NaN || 2 || undefined);
+// for (let i = 5; i < 11; i++) {
+//     console.log(i);
+// }
 
-console.log(5 === 5 && 3 > 1 || 5); */
+// for (let i = 20; i > 10; i--) {
+//     if (i === 13) break;
+//     console.log(i);
+// }
 
+// for (let i = 2; i < 11; i++) {
+//     if (i % 2 !==0) continue;
+//     console.log(i);
+// }
 
-/* const hamburger = 3;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
+// let i = 2;
 
-if (hamburger === 3 && cola || fries === 3 && nuggets) {
-    console.log('Done!');
-} */
+// while (i <= 16) {
+//     if (i % 2 === 0) {
+//         i++;
+//         continue;
+//     } else {
+//         console.log(i);
+//     }
+//     i++; 
+// }
 
-/* let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
-
-if (hamburger || cola || fries === 3 || nuggets) {
-    console.log('Done!');
-} */
-
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
-
-if (hamburger && cola || fries === 3 && nuggets) {
-    console.log('Done!');
-}
-
-console.log(hamburger && cola || fries === 3 && nuggets);
