@@ -36,7 +36,7 @@ if (4 == 9) {
 
 (num === 50) ? console.log('Ok!') : console.log('Error'); */
 
-const num = 50;
+/* const num = 50;
 
 switch (num) {
     case 49: 
@@ -51,4 +51,84 @@ switch (num) {
     default:
         console.log('Не в этот раз');
         break;
+} */
+
+/* const hamburger = 3;
+const fries = 1;
+const cola = 0;
+
+console.log(hamburger === 3 && cola && fries);
+
+console.log(1 && 0);
+console.log(1 && 5);
+console.log(null && 5);
+console.log(0 && 'sdgsdgsgsdg');
+
+if (hamburger === 3 && cola && fries) {
+    console.log('Все сыты!');
+} else {
+    console.log('Мы уходим!');
+} */
+
+/* let johnReport, alexReport, samReport, mariaReport = 'done';
+
+console.log(johnReport || alexReport || samReport || mariaReport); */
+
+/* const hamburger = 3;
+const fries = 3;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+    console.log('Все довольны!');
+} else {
+    console.log('Мы уходим!');
 }
+
+console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets); */
+
+/* console.log(NaN || 2 || undefined);
+
+console.log(NaN && 2 && undefined);
+
+console.log(1 && 2 && 3);
+
+console.log(!1 && 2 || !3);
+
+console.log(NaN || null || !3 || undefined || 5);
+
+console.log(NaN || null && !3 && undefined || 5);
+
+console.log(NaN || 2 || undefined);
+
+console.log(5 === 5 && 3 > 1 || 5); */
+
+
+/* const hamburger = 3;
+const fries = 3;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger === 3 && cola || fries === 3 && nuggets) {
+    console.log('Done!');
+} */
+
+/* let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger || cola || fries === 3 || nuggets) {
+    console.log('Done!');
+} */
+
+let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger && cola || fries === 3 && nuggets) {
+    console.log('Done!');
+}
+
+console.log(hamburger && cola || fries === 3 && nuggets);
